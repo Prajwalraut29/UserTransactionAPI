@@ -57,7 +57,7 @@ Follow these steps to set up the project:
 
 4. Start the server:
     ```
-    npm start
+    node index.js
     ```
 
 
