@@ -12,8 +12,8 @@ app.use(express.json())
 
 // routes
 app.use('/api/users', userRoutes)
-app.use('/api', transactionRoutes); // Use transaction routes under /api
+app.use('/api', transactionRoutes);
 
 app.listen(PORT, () => {
-    // console.log(`server running at ${PORT}`);
+    console.log(`server running at ${PORT}`);
 })
